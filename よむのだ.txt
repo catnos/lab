@@ -1,0 +1,30 @@
+サルでも分かる卒論講座
+
+1,thesisを自分のpcにコピーしよう
+2,thesis/thesis/thesis.texの中身を編集しよう
+ thesis.texは最初のページのタイトル作成やぞ
+3,基本編集はthesis/thesis/scrapの中を編集すると項目が変更されるぞ
+(章ごとに分けて書こう)
+4,編集が終わったらコマンドプロンプトにてthesis/thesisまで移動して
+ make コマンドを打とう！
+5,次に同じ階層でmake pdfを打とう！
+
+これで基本は完成だ！
+
+
+注：チャプターの追加などをしたりすると追加設定が必要だからthesis/thesis/のREADME.mdに
+使い方が書いてるから読んで
+make コマンドはなんか入れないとwindowsはできないっぽいからこれもREADME.mdに見てね
+
+#### Windows(not use make)
+
+    ;; dVI の生成
+    1. テンプレートのディレクトリを開く
+    2. "compile.bar" を実行
+    ;; PDF の生成
+    DVI 生成後に "win_make_pdf.bat" を実行する
+
+で何も入れなくてもできたっぽいby清水
+
+
+以上、用法容量を守ってLET'sｿﾂｷﾞｮｳ!!
